@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap');
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url('/images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+}
+.navbar .left img{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.navbar .right{
+    position: absolute;
+    width: 220px;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+    background-color: palevioletred;
+    padding-top: 30px;
+    display: none;
+    transition: linear 0.3s;
+}
+.right ul li{
+    margin: 30px 20px;
+    list-style: none;
+}
+.right ul li a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.menu{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+.hero-section{
+    margin-left: 80px;
+    margin-top: 120px;
+    max-width: 350px;
+}
+.hero-section p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(64, 64, 64);
+    margin: 10px 0px;
+}
+.box{
+    width: 15px;
+    height: 15px;
+    background-color: palevioletred;
+    margin: 15px 0px;
+}
+/* .newbox{
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    right: 0;
+    background-color: palevioletred;
+} */
+
+.btn{
+    margin: 30px 0px;
+}
+.btn a{
+    width: 150px;
+    text-decoration: none;
+    color: palevioletred;
+    border: 3px solid palevioletred;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.newbtn a{
+    margin: 0px 10px;
+}
+/* ----------------------------------------- Social Icons ------------------------------------- */
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    position: fixed;
+    left: 15px;
+    top: 40%;
+    cursor: pointer;
+}
+.social-icons .fa-brands{
+    font-size: 21px;
+}
+/* --------------------- About Section ------------------- */
+#about{
+    transition: all 0.5s;
+}
+.about-section{
+    width: 100%;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Poppins;   
+    transition: 0.5s;
+}
+.about-section .left{
+    width: 50%;
+}
+.about-section .left img{
+    width: 90%;
+}
+
+.about-section .right{
+    width: 35%;
+    text-align: right;
+    margin-right: 20px;
+}
+.about-section .right h2{
+   font-size: 30px;
+}
+
+/* ---------------------------------- Service Section --------------------------- */
+#features{
+    transition: all 0.3s;
+}
+.service-section{
+    padding: 60px 0px;
+    text-align: center;
+    font-family: Poppins;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px;
+
+    
+}
+.our-services{
+    flex-basis: 24%;
+}
+.our-services p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.our-services img{
+    width: 30%;
+}
+/* ------------------------- */
+.courses-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+    margin: 20px 80px;
+    font-family: Poppins;
+   
+}
+.courses-left{
+    width: 28%;
+    text-align: left;
+}
+.courses-left h2{
+    font-size: 30px;
+}
+.courses-left p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.courses-right{
+    width: 60%;
+    text-align: right;
+}
+.courses-right img{
+    width: 100%;
+
+}
+
+.trail{
+    margin-right: 80px;
+}
+.trail p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* -------------------------------------- Contact Section ------------------------------- */
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-family: Poppins;
+    padding: 30px 0px;
+    margin: 20px 80px;
+}
+.contact-left{
+    width: 45%;
+    
+}
+.contact-left h2{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.contact-left form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.contact-left form input{
+    width: 320px;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border: 2px solid palevioletred;
+    outline: none;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.contact-right{
+    width: 50%;
+    /* text-align: left; */
+}
+.contact-right img{
+    width: 95%;
+}
+
+/* ------------------------------------- Footer Section --------------------------------------- */
+hr{
+    width: 90%;
+    margin: auto;
+}
+.footer-section{
+    padding: 50px 0px;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer-section ul li{
+    padding: 3px 0px;
+    list-style: none;
+    cursor: pointer;
+}
+.footer h3{
+    padding: 5px;
+}
+.footer img{
+    width:90%;
+}
+
